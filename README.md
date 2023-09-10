@@ -2,7 +2,7 @@
 
 Projeto para avaliação da disciplina Desenvolvimento para iOS Apple 1 do curso de Pós Graduação para Aplicativos Móveis do Centro Universitário Instituto de Educação Superior de Brasília (IESB).
 
-O projeto contempla com um aplicativo desenvolvimento contendo duas telas, sendo elas: Principal e Detalhes.
+O projeto contempla com um aplicativo desenvolvimento contendo duas telas, sendo elas: Principal e Detalhes, utilizando o padrão MVC.
 
 A página principal será aberta ao iniciar o aplicativo acessando as inforamções de um API, com o seguinte endereço:
 
