@@ -20,6 +20,13 @@ struct RickAndMortyCharacter: Codable {
         case imageURL = "image"
     }
     
+    init(id: Int, name: String, status: String, imageURL: URL?) {
+        self.id = id
+        self.name = name
+        self.status = status
+        self.imageURL = imageURL
+    }
+    
     init(from decoder: Decoder) throws {
         let container = try decoder.container(keyedBy: CodingKeys.self)
         self.id = try container.decode(Int.self, forKey: .id)

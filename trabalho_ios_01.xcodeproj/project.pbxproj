@@ -20,6 +20,7 @@
 		998929742AAB48C600CA85F8 /* RickAndMortyService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 998929732AAB48C600CA85F8 /* RickAndMortyService.swift */; };
 		9989297A2AAB652600CA85F8 /* RickAndMortyCharacterTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 998929792AAB652600CA85F8 /* RickAndMortyCharacterTableViewCell.swift */; };
 		9989297C2AAB936500CA85F8 /* ImageManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9989297B2AAB936500CA85F8 /* ImageManager.swift */; };
+		9989297E2AAE2E9000CA85F8 /* DetailsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9989297D2AAE2E9000CA85F8 /* DetailsController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +58,7 @@
 		998929732AAB48C600CA85F8 /* RickAndMortyService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RickAndMortyService.swift; sourceTree = "<group>"; };
 		998929792AAB652600CA85F8 /* RickAndMortyCharacterTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RickAndMortyCharacterTableViewCell.swift; sourceTree = "<group>"; };
 		9989297B2AAB936500CA85F8 /* ImageManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageManager.swift; sourceTree = "<group>"; };
+		9989297D2AAE2E9000CA85F8 /* DetailsController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,8 +114,8 @@
 				9989296D2AA9119100CA85F8 /* Models */,
 				9989293D2AA8A22500CA85F8 /* AppDelegate.swift */,
 				9989293F2AA8A22500CA85F8 /* SceneDelegate.swift */,
-				998929462AA8A22600CA85F8 /* Assets.xcassets */,
 				998929482AA8A22600CA85F8 /* LaunchScreen.storyboard */,
+				998929462AA8A22600CA85F8 /* Assets.xcassets */,
 				9989294B2AA8A22600CA85F8 /* Info.plist */,
 				9989297B2AAB936500CA85F8 /* ImageManager.swift */,
 			);
@@ -159,6 +161,7 @@
 			children = (
 				998929762AAB64A100CA85F8 /* Cells */,
 				998929412AA8A22500CA85F8 /* ViewController.swift */,
+				9989297D2AAE2E9000CA85F8 /* DetailsController.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -302,6 +305,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9989297A2AAB652600CA85F8 /* RickAndMortyCharacterTableViewCell.swift in Sources */,
+				9989297E2AAE2E9000CA85F8 /* DetailsController.swift in Sources */,
 				998929712AA919D100CA85F8 /* RickAndMortyResponse.swift in Sources */,
 				9989296F2AA912EE00CA85F8 /* RickAndMortyCharacter.swift in Sources */,
 				9989297C2AAB936500CA85F8 /* ImageManager.swift in Sources */,

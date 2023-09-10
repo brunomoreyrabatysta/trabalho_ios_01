@@ -113,6 +113,35 @@ extension ViewController: UITableViewDataSource {
         }
         let character = characterList[indexPath.row]
         cell.configure(with: character)
+        
+//        let clickRecognizer = UITapGestureRecognizer(target: self, action: #selector(self.tableViewClick))
+//
+//        cell.profileImage.isUserInteractionEnabled = true
+//        cell.profileImage.addGestureRecognizer(clickRecognizer)
+        
         return cell
+    }
+    
+    @objc func tableViewClick(sender: UITapGestureRecognizer) {
+        let tapLocation = sender.location(in: tableView)
+        let indexPath = self.tableView.indexPathForRow(at: tapLocation)
+        let position = indexPath?.row ?? 0
+        let item = characterList[position]
+        
+        //self.presentViewController(DetailsController(), animated: false, completion: nil)
+        self.present(DetailsController(), animated: false, completion: nil)
+        self.navigationController?.popViewController(animated: true)
+        //self.present(DetailsController(), animated: false)
+    }
+    
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        let position = indexPath.row
+        let item = characterList[position]
+        
+        let details = DetailsController()
+        details.char = item
+        details.modalPresentationStyle = .fullScreen
+        
+        self.present(details, animated: false, completion: nil)
     }
 }

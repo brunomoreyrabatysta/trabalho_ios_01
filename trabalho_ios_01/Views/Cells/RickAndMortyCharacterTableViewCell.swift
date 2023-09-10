@@ -10,9 +10,9 @@ import UIKit
 class RickAndMortyCharacterTableViewCell: UITableViewCell {
     static var reuseIdentitier: String = "RickAndMortyCharacterTableViewCell"
 
-    private let profileImage = UIImageView()
-    private let nameLabel = UILabel()
-    private let statusLabel = UILabel()
+    public let profileImage = UIImageView()
+    public let nameLabel = UILabel()
+    public let statusLabel = UILabel()
     
     override init(style: UITableViewCell.CellStyle, reuseIdentifier: String?) {
         super.init(style: style, reuseIdentifier: reuseIdentifier)
